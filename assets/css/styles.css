@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+
+body {
+	text-align: center;
+	background-color: black;
+	background-image: url("../images/broadbandbg.jpg");
+	color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-position: center;
+  	font-family: cabin;
+}
+
+#report_service_info {
+	margin: auto;
+    text-align: left;
+    max-width: 455px;
+}
+
+#fadebg {
+  width: 10000px;
+  height: 10000px;
+  z-index: -1;
+  position: fixed;
+  background-color: black;
+  margin-left: -1000px;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+#navbar {
+	-webkit-transition: background 0.2s,
+  	-moz-transition: background 0.2s,
+  	-o-transition: background 0.2s,
+  	transition: background 0.2s,
+}
+
+.navbar_link {
+	color: white;
+}
+
+	a:hover {
+		background-color: transparent!important;
+	}
+
+#nav_service_requests, #nav_logout {
+	display: none;
+}
+
+.icon-bar {
+	border: 2px solid white;
+}
+
+#myNavbar {
+  box-shadow: none;
+}
+
+#index_main {
+	margin-top: 10vh;
+}
+
+@media all and (max-height: 500px) {
+	#index_h1 {
+		font-size: 25px;
+	}
+}
+
+@media all and (min-height: 501px) {
+	#index_h1 {
+		font-size: 29px;
+	}
+}
+
+#index_logo, #index_h1, #login_section, #logged_in_menu, #register_section, #service_request_form, #service_request_success, #view_request, #service_requests {
+	display: none;
+}
+
+#index_logo {
+	margin: auto;
+}
+
+#index_logo svg {
+	width: 300px;
+	height: 40vh;
+	-webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+.form {
+	width: 80%;
+    margin: auto;
+    max-width: 455px;
+}
+
+	.form p, input {
+		font-size: 15px!important;
+	}
+
+	#service_request_title {
+		text-align: center;
+	}
+
+	#service_request_form {
+		text-align: left;
+	}
+	/*.form input {
+		text-align: center;
+	}*/
+
+		.form input[type="radio"] {
+			margin: 0px 5px;
+		}
+
+	.submit {
+		background-color: #00AEEF;
+		color: white;
+		border: none;
+	}
+
+		.submit:hover {
+			background-color: #23527c;
+		}
+
+		.submit:active {
+			border: 2px solid white;
+		}
+
+table {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+select {
+	background-color: #00AEEF;
+	text-align: center;
+	width: 100%;
+}
+
+#hq_city {
+	width: 50%;
+	display: inline-block;
+}
+
+#hq_state {
+	width: 45%!important;
+    display: inline-block;
+    height: 35px;
+}
+
+td, th {
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+	color: #00AEEF;
+	font-size: 17px;
+}
+
+a {
+	/*color: #00AEEF;*/
+	color: #00eaff;
+}
+
+	a:hover {
+		color: #78f6ff;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	#request_links a {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+	#logged_in_menu a {
+		font-size: 19px!important;
+	}
+
+.success {
+	color: #0cff00;
+}
+
+.error {
+	color: red;
+}
+
+.blue {
+	color: #00eaff;
+}
+
+/*Microsoft Word logo CSS*/
+#path6 {
+	fill: #2a5699;
+	-webkit-transition: fill 0.2s;
+	  -moz-transition: fill 0.2s;
+	  -o-transition: fill 0.2s;
+	  transition: fill 0.2s;
+}
+
+	/*#path6:hover {
+		fill: #00aeff;
+	}*/
+
+@media (max-width: 767px) {
+	#service_request_success {
+		margin-top: 7vh;
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 768px) {
+	#service_request_success {
+		margin-top: 20vh;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.col-sm-4 {
+		margin-bottom: 30px;
+	}
+}
+
+.main_project_info_columns {
+	height: 200px;
+}
+
+.request_h4 {
+	margin-top: 13px;
+}
+
+#request_id {
+	display: none;
+}
+
+#view_report_exports {
+	max-width: 500px;
+	margin: 15px auto;
+}
+
+@media (max-width: 767px) {
+	#project_info_section {
+		margin-top: -35px;
+	}
+}
+
+.number_special_character_check, .username_check, .special_character_check, .number_check, .length_check, .match_check, .valid, .project_name_check, .budget_info_check, .budget_amount_check, .valid_city_check, .valid_name_check {
+	display: none;
+}
+
+.export:hover {
+	cursor: pointer;
+}
+
+#request_service_info {
+	text-align: left;
+    width: 100%;
+    max-width: 455px;
+    margin: auto;
+}
