@@ -1,5 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Cabin);
 
+/*// Font linked to .ttf file hosted on server for easier pushing and sharing between local and live*/
+@font-face {
+    font-family: section_nine;
+    src: url(https://www.travterrell.com/srg/assets/fonts/section_nine.ttf);
+}
+
+.st1 {
+	font-family: section_nine!important;
+}
+
 body {
 	text-align: center;
 	background-color: black;
@@ -16,6 +26,10 @@ body {
 	margin: auto;
     text-align: left;
     max-width: 455px;
+}
+
+.st1 {
+	font-family: section_nine;
 }
 
 #fadebg {

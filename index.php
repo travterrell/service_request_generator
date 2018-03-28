@@ -70,7 +70,6 @@ session_start();
       Generator.init();
       FormValidation.init();
       User.init();
-      // $('#login-modal').modal('show');
     </script>
   </body>
 </html>
