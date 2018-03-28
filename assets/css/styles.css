@@ -6,9 +6,10 @@
     src: url(https://www.travterrell.com/srg/assets/fonts/section_nine.ttf);
 }
 
+/*Have this section uncommented for live version.  Comment out for localhost version
 .st1 {
 	font-family: section_nine!important;
-}
+}*/
 
 body {
 	text-align: center;
@@ -26,10 +27,6 @@ body {
 	margin: auto;
     text-align: left;
     max-width: 455px;
-}
-
-.st1 {
-	font-family: section_nine;
 }
 
 #fadebg {
