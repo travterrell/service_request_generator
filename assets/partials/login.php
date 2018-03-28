@@ -10,3 +10,14 @@
     <p>Not registered for this generator?  <a id="register">Register here</a></p>
   </div>
 </div>
+
+<div class="modal fade" id="login-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p id="alert-message"></p>
+        <button type="button" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -265,3 +265,26 @@ a {
     max-width: 455px;
     margin: auto;
 }
+
+.modal-content {
+	margin-top: 30vh;
+	background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #00e4ff;
+}
+
+	.modal-content p {
+		font-size: 20px;
+	}
+
+	.modal-content button {
+		border-radius: 15px;
+		background-color: red;
+	}
+
+input, select {
+	margin-bottom: 4px;
+}
+
+.form-control[disabled] {
+	background-color: #757575;
+}

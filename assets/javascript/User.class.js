@@ -48,9 +48,13 @@ var User = {
         	dataType: "html",       
         	success: function(response){
         		if (response == "Username error") {
-        			alert("Your Username was not valid.  Please try again.");
+        			$('#alert-message').html('Your username was not valid.  Please try again.');
+        			$('#login-modal').modal('show');
+        			// alert("Your Username was not valid.  Please try again.");
         		} else if (response == "Password error") {
-        			alert("Your password was not valid.  Please try again.");
+        			$('#alert-message').html('Your password was not valid.  Please try again.');
+        			$('#login-modal').modal('show');
+        			// alert("Your password was not valid.  Please try again.");
         		} else {
         			loggedIn = true;
         			Generator.logIn(response);  

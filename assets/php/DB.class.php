@@ -4,6 +4,10 @@ class DB {
 	public $connection = NULL; 
 
 	public function startConnection() {
+		// MySQL connection settings will either be:
+		// $this->connection = mysqli_connect('localhost','root','root','service_request_generator');
+		// 	    or
+		// $this->connection = mysqli_connect('localhost','trav_terrell','Jimmyt16','service_request_generator');
 		$this->connection = mysqli_connect('localhost','root','root','service_request_generator');
 		if (!$this->connection) {
 			echo 'Could not connect: ' . mysqli_error($this->connection);
